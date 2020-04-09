@@ -1,0 +1,87 @@
+/*title color*/
+.one h1 {
+  background-color: red;
+}
+
+.two h1 {
+  background-color: brown;
+}
+
+.tree h1 {
+  background-color: blue;
+}
+/*        */
+
+
+/* header position*/
+header h1 {
+  text-align: center;
+}
+/*               */
+
+
+
+/* section*/
+
+
+section{
+  background-color: black;
+  margin: 1%;
+  position: relative;
+  border: solid 1px black;
+  width: 31%;
+  height: 180px;
+  float: left;
+  overflow: auto;
+  box-sizing: border-box;
+  padding-top: 10px;
+}
+
+section h1{
+  width:150px;
+  position: absolute;
+  right: 0;
+top: -20px;
+  border: solid 1px black;
+  border-top-style: none;
+  border-right-style: none;
+  text-align: center;
+
+}
+section p {
+  color : white;
+
+padding: 5px;
+  padding-top: 18px;
+
+}
+
+/*                */
+
+/* media queries*/
+
+@media (max-width:767px) {
+  section{
+
+  float: none;
+width: 100%;
+  }
+}
+
+@media (min-width:768px) and (max-width:991px){
+  .one{
+
+    width: 47%;
+  }
+  .two
+  {
+    width: 47%;
+
+  }
+
+  .tree {
+    width: 96.2%;
+
+  }
+
+}
